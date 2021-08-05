@@ -20,12 +20,11 @@
     </q-item-section>
   </q-item>
 </template>
-
 <script>
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'EssentialLink',
+  name: 'Drawer',
   props: {
     title: {
       type: String,
